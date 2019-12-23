@@ -1,0 +1,22 @@
+body{
+	background-color: snow;
+}
+header{
+	   background-color: navy;
+}
+.color-footer{
+	          background-color: navy;
+	          color:orange;
+}
+#estilo-forma{
+	          background-color:white;
+	          font-size: 20px;
+	          padding: 20px;
+}
+a:hover{
+	   background-color: orange;
+}
+
+nav a {
+	   font-size: 25px;
+}
