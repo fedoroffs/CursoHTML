@@ -1,0 +1,83 @@
+body{
+	background-color: snow;
+}
+header{
+	   background-color: navy;
+}
+.color-footer {
+	          background-color: navy;
+	          color:orange;
+	 }        
+
+
+ #estilo-forma{
+	          background-color:white;
+	          font-size: 20px;
+	          padding: 20px;
+}
+
+a:hover{
+	   background-color: orange;
+}
+
+nav a {
+	   font-size: 25px;
+}
+
+*{
+  font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+h1, h2 {
+	   font-size: 20px;
+}
+
+p::selection{
+	        background-color: orange;
+}
+
+form>span{
+         color: darkblue;
+}
+
+.colocacion-enlinea{
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.estilo-direccion{
+	height: 200px;
+	width: 250px;
+	vertical-align: top;
+	margin-left: 2%;
+}
+
+.reservado{
+	display: block;
+	font-size: 15px;
+	text-align: center;
+}
+
+nav, main {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 70%
+}
+
+img{
+	margin-right: 35px;
+}
+
+p{
+	max-width:835px;
+	text-align: justify;
+}
+
+.logo{
+	margin-left: 2%;
+}
