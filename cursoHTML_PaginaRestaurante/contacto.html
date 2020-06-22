@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+		<title>Contacto</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/estilos.css" rel="stylesheet">		
+	</head>
+	<body> 
+
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+		  <a class="navbar-brand" href="index.html">
+              <img src="ImagenesRestaurante/logo1.png" width="250" height="60" alt="">
+          </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="locales.html">Locales</a>
+		      <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+		      <a class="nav-item nav-link" href="contacto.html">Contáctanos</a>
+		    </div>
+		  </div>
+		</nav>
+		<main class="container-fluid">
+			<div>
+				<img src = "ImagenesRestaurante/contacto.png" alt="la vista de un restaurante" width="400" height="300" class="estilo-img">
+			</div>
+
+			<div id="estilo-titulo">CONTACTANOS</div>
+
+			
+
+            <!-- La seccion con dos contenedores:formulario y la imagen-->
+
+			<section class="row estilo-section margen-primera-seccion">
+
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					
+					<p class="estilo-letra ">
+						Nos puedes enviar un mensaje usando la siguiente forma. Puedes compartir con nosotros
+						tus experiencias en los locales del RINCONCITO o simplemente hacernos una pregunta
+						acerca de nuestra actividad.
+					</p>
+					<form>
+						
+						<input id="ancho-forma" type="text" name="nombre"  placeholder="Nombre Completo"><br>
+						<br>						
+						<input id="ancho-forma" type="text" name="correo"  placeholder="Correo Electrónico"><br>
+						<br>
+						
+						<select name="edad">
+							<option>Edad&lt;18</option>
+							<option>Edad 18-25</option>
+							<option>Edad 26-35</option>
+							<option>Edad 36-45</option>
+							<option>Edad 46-55</option>
+							<option>Edad&gt;55</option>
+						</select>
+						<br>
+						<br>
+						
+						<textarea rows="5">Mensaje</textarea> <br>
+						
+						<br>
+						<span class="letra-forma">¿Quiere recibir más información?</span>
+						<input type="radio" name="quiereInfo" value="si" id="si"><label  for="si">Si</label>
+						<input type="radio" name="quiereInfo" value="no" id="no"><label for="no">No</label><br>
+						<span class="letra-forma ">¿Qué tipo de información te gustaría recibir?</span><br>
+						<input type="checkbox" name="promo" id="promo"><label for="promo">Promociones</label><br>
+						<input type="checkbox" name="trabajo" id="trabajo"><label for="trabajo">Ofertas de Trabajo</label><br>
+						<input type="checkbox" name="eventos" id="eventos"><label for="eventos">Eventos Especiales</label><br>
+						<input type ="submit" class="color-boton">
+					</form>
+                     <br>
+					<div class="letra-forma">¡Síguenos en las redes sociales!</div> <br>
+					<div class="margen-foto-bebida">
+						<a href="https://es-la.facebook.com/" target="_blank"> <img src="ImagenesRestaurante/simboloFace.png" alt="simbolo de facebook" width="50" height="50"></a>
+						<a href="https://twitter.com/login?lang=es" target="_blank"><img src="ImagenesRestaurante/simboloTwitter.png" alt="simbolo twitter" width="46" height="46"></a>
+				    </div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 margen-foto-bebida">
+					<img src = "ImagenesRestaurante/bebida.png" alt="una bebida" class="estilo-imagen-contacto esconde-imagen">
+				</div>		
+			</section>
+			<!-- El titulo Unete a Nosotros-->
+			<div id="estilo-segundo-titulo" class="margen-abajo">¡UNETE A NOSOTROS!</div>
+
+            <!--Seccion con dos contenedores: imagen y Oportunidades de Trabajo-->
+			<section class="row estilo-section margen-abajo">
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<img src = "ImagenesRestaurante/mesera.png" alt="mesera trabajando" class="estilo-imagen-contacto">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<p class="estilo-letra">
+						Si estás interesado en trabajar en uno de nuestros restaurantes, envíanos tu CV
+						y un representante te contactará muy pronto. Siempre buscamos personas dedicadas que comparten nuestro espíritu de excelencia y dedicación.
+					</p>
+					<strong class="estilo-letra ">Oportunidades de Trabajo</strong>
+					<ul>
+						<li>Gerente</li>
+						<li>Asistente</li>
+						<li>Cajeros</li>
+						<li>Repartidores Motorizados</li>
+						<li>Cocinero</li>
+					</ul>
+					<strong class="estilo-letra ">¿Cómo contratamos?</strong>
+					<ol>
+						<li>Revisamos su CV</li>
+						<li>Entrevista por teléfono</li>
+						<li>Entrevista con el gerente</li>
+						<li>¡Estás contratado!</li>
+					</ol>
+					<span class="estilo-letra"> <i>¡Envíanos tu CV!</i></span>
+					<form>
+						
+						<div class="espacio-boton">
+							<button class="color-boton">Seleccionar</button>
+						</div>
+						<input type="reset" class="color-boton">
+						<input type="submit" value="Enviar" class="color-boton">
+					</form>
+				</div>				
+			</section>
+			
+		</main>
+	<!--Aquí emppieza el pie de la página -->
+
+		<footer>
+			<div class="container-fluid">
+			<section class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 bloque-contacto">
+				<span class="estilo-span-contacto"><a href=contacto.html>CONTACTANOS</a></span>
+			    </div>
+				<div class="col-lg-4 col-md-4 col-sm-12 bloque-direccion">
+					Teléfono: 451-1890 <br>
+					Av. Paseos Agradables, Sector A 15. Tienda 7. <br>
+					Lima Perú
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<a href="https://es-la.facebook.com/" target="_blank"> <img src="ImagenesRestaurante/simboloFace.png" alt="simbolo de facebook" width="50" height="50"></a>
+					<a href="https://twitter.com/login?lang=es" target="_blank"><img src="ImagenesRestaurante/simboloTwitter.png" alt="simbolo twitter" width="46" height="46"></a>
+			    </div>				
+			</section>
+			</div>		
+		</footer>
+
+		<!-- Aqui van los archivos de js para BOOTSTRAP-->
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

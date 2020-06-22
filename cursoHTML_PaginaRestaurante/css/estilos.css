@@ -1,0 +1,479 @@
+
+/* Estilos aplicados a todas las paginas*/
+
+.estilo-img {
+  width: 100%;
+  height: auto;
+  
+}
+
+
+
+label{
+	 font-family: yu gothic;
+     font-size: 14px;
+     letter-spacing: -1px;
+
+}
+
+
+nav {
+	background-color: black;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+footer{
+	background-color: black;
+	margin: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	color:white;
+	text-align: center;
+}
+
+a{
+	color:white;
+}
+
+.letra-forma{
+  width: 396px;
+  font-family: yu gothic;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+
+/*Estilos aplicados para index.html*/
+
+.bloque-contacto {
+	padding-top: 23px;
+}
+
+.bloque-direccion{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.estilo-span-contacto{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	padding: 5px;	
+}
+
+.estilo-section {
+	margin-left:15%;
+	margin-right:15%;
+}
+
+.espacio-seleccion {
+	margin-top: 80px;
+	margin-bottom:20px;
+}
+
+
+
+.saca-espacio-derecha{
+padding-right:0 ! important;
+margin-right:0 ! important;
+}
+
+.saca-espacio-izquierda{
+padding-left:0 ! important;
+margin-left:0 ! important;
+}
+
+
+
+
+/*Estilos aplicados para nosotros.html*/
+
+
+
+
+.estilo-letra-titulo {
+	font-family: corbel light;
+	font-size: 50px;
+	letter-spacing: -2px;
+
+}
+
+.estilo-letra-subtitulo{
+	font-family: corbel;
+
+
+}
+
+.espacio-seccion-sandwich{
+	margin-top: 20px;
+}
+.margen-titulo {
+	margin-bottom: 5%;
+	margin-top: -20px;
+}
+
+/*Estilos aplicados para contacto.html*/
+
+.margen-primera-seccion{
+	margin-top: 50px;
+}
+
+.color-boton{
+	color:white;
+	background-color:black;
+	border:none;
+	border-radius: 2px;
+
+}
+
+.espacio-boton{
+	margin-bottom: 2%;
+	margin-top:2%;
+}
+
+ol, ul{
+		font-family: yu gothic;
+		font-size: 18px;
+		text-align: left;
+		letter-spacing: -1px;
+}
+
+
+/* Estilos para pantalla pequeña*/
+
+@media only screen and (max-width: 768px) {
+	#primero {
+		order: 1;
+	}
+	#segundo {
+		order: 2;
+	}
+
+	.saca-espacio-izquierda{
+		margin-left:15px ! important;		
+
+	}
+	.margen-section {
+		margin-top: 10px;
+	}
+	.margen-contenedor{
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	.estilo-letra {
+		font-family: yu gothic;
+		font-size: 18px;
+		text-align: left;
+		letter-spacing: -1px;
+	}
+	.estilo-imagen-chef{
+	  max-width: 100%;
+	  height: auto;
+	}
+	.estilo-imagen-sandwich{
+		max-width: 100%;
+		height: auto;
+	}
+	.estilo-imagen-contacto{
+		max-width: 100%;
+		height: auto;
+	}
+	.estilo-video {
+		width: 100%;
+		height:auto;
+	}
+	.estilo-nota {
+		font-family: yu gothic;
+		font-size: 12px;
+		text-align: right;
+		letter-spacing: -1px;
+		
+	}
+	#estilo-titulo{
+	margin-left: 17.8%;
+	margin-top:50px;
+	font-family: corbel light;
+	font-size: 30px;
+	letter-spacing: -2px;	
+
+}
+#estilo-segundo-titulo{
+	font-family: corbel light;
+	font-size:30px;
+	letter-spacing: -2px;
+	
+	margin-left: 17.8%;
+	
+}
+select {
+  width: 200px;
+  font-family: yu gothic;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+#ancho-forma{
+	width: 200px;
+}
+
+
+textarea {
+	width: 200px;
+	 font-family: yu gothic;
+     font-size: 15px;
+     letter-spacing: -1px;
+}
+.margen-abajo{
+	margin-bottom: 30px;
+}
+.margen-foto-bebida{
+	margin-bottom: 30px;
+	}
+
+ .ancho-mapa{
+ 	width: 250px;
+ 	height: 200px;
+ }
+ .esconde-anuncio{
+		display: none;
+	}
+	.espacio-foto-hamburguesa{
+	margin-top: 30px;
+}
+
+}
+
+/*Estilos para pantalla grande*/
+
+@media only screen and (min-width: 769px) {
+
+.margen-section {
+	margin-top: 80px;
+}
+.estilo-letra {
+	font-family: yu gothic;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: -1px;
+
+}
+.estilo-imagen-chef{
+  max-width: 60%;
+  height: auto;
+}
+.alinear-imagenes{
+	text-align:right;
+}
+
+.estilo-imagen-sandwich{
+	max-width: 60%;
+	height: auto;
+}
+.estilo-video {
+	width: 60%;
+	height:auto;
+}
+.estilo-imagen-contacto{
+		max-width: 80%;
+		height: auto;
+	}
+.estilo-nota {
+	font-family: yu gothic;
+	font-size: 12px;
+	text-align: right;
+	letter-spacing: -1px;
+	margin-left: 25%;
+}
+#estilo-titulo{
+	margin-left: 15.7%;
+	margin-top:50px;
+	font-family: corbel light;
+	font-size: 30px;
+	letter-spacing: -2px;	
+
+}
+
+#estilo-segundo-titulo{
+	font-family: corbel light;
+	font-size:30px;
+	letter-spacing: -2px;
+	
+	margin-left:50.8%;
+}
+select {
+  width: 396px;
+  font-family: yu gothic;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+
+textarea {
+	width: 396px;
+	 font-family: yu gothic;
+     font-size: 15px;
+     letter-spacing: -1px;
+}
+
+#ancho-forma{
+	width: 396px;
+}
+.margen-abajo{
+	margin-bottom: 70px;
+}
+.margen-foto-bebida{
+	margin-bottom: 0px;
+	}
+.ancho-mapa{
+ 	width: 350px;
+ 	height: 300px;
+ }
+
+ li{
+	font-family: yu gothic;
+	font-size: 20px;	
+	letter-spacing: -1px;
+}
+li{
+	font-family: yu gothic;
+	font-size: 20px;	
+	letter-spacing: -1px;
+}
+.espacio-foto-hamburguesa{
+	margin-top: 55px;
+}
+
+}
+
+
+/*Estilos aplicados para pantalla mediana*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+#estilo-segundo-titulo{
+	font-family: corbel light;
+	font-size:30px;
+	letter-spacing: -2px;
+	margin-left:16%;
+}
+.estilo-imagen-contacto{
+		max-width: 60%;
+		height: auto;
+	}
+
+.estilo-imagen-chef{
+
+  max-width: 100%;
+  height: auto;
+  
+
+}
+.estilo-imagen-sandwich{
+	max-width: 100%;
+	height: auto;
+}
+.estilo-video {
+	width: 100%;
+	height:auto;
+}
+
+select {
+  width: 396px;
+  font-family: yu gothic;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+
+textarea {
+	width: 396px;
+	 font-family: yu gothic;
+     font-size: 15px;
+     letter-spacing: -1px;
+}
+
+#ancho-forma{
+	width: 396px;
+}
+
+.margen-abajo{
+	margin-bottom: 70px;
+}
+
+.margen-foto-bebida{
+	margin-bottom: 50px;
+	}
+
+.ancho-mapa{
+ 	width: 250px;
+ 	height: 200px;
+ }
+li{
+	font-family: yu gothic;
+	font-size: 15px;	
+	letter-spacing: -1px;
+}
+	#primero {
+		order: 1;
+	}
+	#segundo {
+		order: 2;
+	}
+
+	.ajusta-margen{
+		margin-left:18px !important;
+	}
+		.espacio-foto-hamburguesa{
+	margin-top: 30px;
+}
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+
+	.esconde-imagen{
+		display: none;
+	}
+}
+
+
+/*Estilos aplicados a Locales.html*/
+.margen-abajo-direccion{
+	margin-bottom: 20px;
+}
+
+.margen-abajo-horario{
+	margin-bottom: 10px;
+}
+
+.letra-titulos-locales{
+
+	font-family: corbel light;
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+
+.letra-locales{
+	font-family: yu gothic;
+	font-size: 15px;	
+	letter-spacing: -1px;
+}
+
+
+
+
+.anuncio{
+
+	animation-name: oferta;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+@keyframes oferta{
+
+	from {transform: scale(1.5);}
+	to {transform: scale(1.0);}
+}

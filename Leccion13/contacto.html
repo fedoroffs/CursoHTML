@@ -41,10 +41,10 @@
 					<form>
 						<strong>Usa esta forma para contactarnos.</strong>
 						<br>
-						<span>Nombre Completo</span>
-						<input type="text" name="nombre" size="30"><br>
-						<span>Correo Electrónico</span>
-						<input type="text" name="correo" size="30"><br>
+						<label for="nombre">Nombre Completo</label>
+						<input type="text" name="nombre" size="30" id="nombre"><br>
+						<label for="correo">Correo Electrónico</label>
+						<input type="text" name="correo" size="30" id="correo"><br>
 						<span>Edad</span>
 						<select name="edad">
 							<option>&lt;18</option>
@@ -56,12 +56,12 @@
 						</select>
 						<br>
 						<span>¿Quiere recibir más información?</span>
-						<input type="radio" name="quiereInfo" value="si">Si
-						<input type="radio" name="quiereInfo" value="no">No<br>
+						<input type="radio" name="quiereInfo" value="si" id="si"><label for="si">Si</label>
+						<input type="radio" name="quiereInfo" value="no" id="no"><label for="no">No</label><br>
 						<span>¿Qué tipo de información te gustaría recibir?</span><br>
-						<input type="checkbox" name="promo">Promociones<br>
-						<input type="checkbox" name="trabajo">Ofertas de Trabajo<br>
-						<input type="checkbox" name="eventos">Eventos Especiales<br>
+						<input type="checkbox" name="promo" id="promo"><label for="promo">Promociones</label><br>
+						<input type="checkbox" name="trabajo" id="trabajo"><label for="trabajo">Ofertas de Trabajo</label><br>
+						<input type="checkbox" name="eventos" id="eventos"><label for="eventos">Eventos Especiales</label><br>
 						<span>CV</span>
 						<input type="file"><br>
 						<input type="reset">
@@ -90,7 +90,7 @@
                     <br>
                     Lima Perú 
                     <br>
-                    Télefono: 451-1890 
+                    Teléfono: 451-1890 
 				</address>
 			    &copy;Todos los derechos reservados
 			</footer> 
